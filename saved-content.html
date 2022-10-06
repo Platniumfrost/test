@@ -1,0 +1,48 @@
+<h1>HTML Forms</h1>
+
+<form>
+    <label for="Username">Enter Username:</label>
+    <input type="text" id="username" name="username" placeholder="username" required>
+    <br></br>
+    <label for="email">Enter Email</label>
+    <input type="email" id="email" name="email" placeholder="your email" required>
+    <br></br>
+    <label for="password">password:</label>
+    <input type="password" id="password" name="password" placeholder="choose a password" required>
+
+    <p>Select your age:</p>
+
+    <input type="radio" name="age" value="0-25" id="option1">
+    <label for="option1">0-25</label>
+    <input type="radio" name="age" value="26-50" id="option2">
+    <label for="option2">26-50</label>
+    <input type="radio" name="age" value="51+" id="option3">
+    <label for="option3">51+</label>
+
+    <br><br>
+
+      <!-- drop down-->
+      <label for="question">security question</label>
+      <select name="question" id="question">
+        <option value="q1">What color are your favoirite pair of socks?</option>
+        <option value="q2">How many sibilings do you have?</option>
+        <option value="q3">What is your dream pet?</option>
+        <option value="q4">What is your favorite book?</option>
+      </select>
+
+      <br></br>
+
+      <label for="answer">security question answer</label>
+      <input type="text" id="answer" name="answer">
+
+      <br></br>
+
+      <label for="bio">Your Bio</label><br>
+      <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+
+      <br></br>
+      <input type="submit" value="submit the form">
+
+    
+
+</form>
